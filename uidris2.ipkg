@@ -1,0 +1,11 @@
+package uidris2
+authors = "Rafael"
+builddir = "build"
+executable= "uidris2"
+homepage = "https://github.com/rafaelRiv/uidris2"
+main = Main
+depends = idris2
+maintainers = "Rafael"
+sourcedir = "./src"
+sourceloc = "https://github.com/rafaelRiv/uidris2"
+version = 0.0.1

@@ -1,0 +1,5 @@
+[custom.all.uidris2]
+type = "local"
+path = "."
+ipkg = "uidris2.ipkg"
+

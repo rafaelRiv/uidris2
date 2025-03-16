@@ -1,6 +1,8 @@
 module Main
 
 import Compiler.Common
+import Idris.Driver
+import RefC
 
 main : IO ()
-main = putStrLn "uIdris2 Hello World !"
+main = mainWithCodegens [("refC",codegenRefC)] 

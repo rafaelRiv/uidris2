@@ -1,6 +1,6 @@
 module RefC
 
-import Compiler.RefC.CC
+import CC
 
 import Compiler.Common
 import Compiler.CompileExpr

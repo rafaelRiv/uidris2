@@ -3,3 +3,12 @@ type = "local"
 path = "."
 ipkg = "uidris2.ipkg"
 
+[idris2]
+bootstrap = true
+
+# Override this to use a custom Git repo for the Idris compiler
+url = "https://github.com/idris-lang/Idris2"
+
+# Override this to use a custom commit and branch for the Idris compiler
+commit = "6d02c52102331b225303dbf51781d508eeb06edd"
+
